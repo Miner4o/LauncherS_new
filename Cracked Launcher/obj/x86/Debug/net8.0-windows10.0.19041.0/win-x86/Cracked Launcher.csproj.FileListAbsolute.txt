@@ -244,8 +244,14 @@ D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug
 D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\qualifiers.txt.intermediate
 D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\MultipleQualifiersPerDimensionFound.txt
 D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\ProjectArchitectures.txt
-D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage.xbf
-D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage.g.i.cs
-D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage.g.cs
-D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage.xaml
-D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage.xbf
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.sourcelink.json
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage1.xaml
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage1.xbf
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage1.xbf
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Recents1.xbf
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage1.g.i.cs
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\HomePage1.g.cs
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Recents1.g.i.cs
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Recents1.g.cs
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Recents1.xaml
+D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Recents1.xbf

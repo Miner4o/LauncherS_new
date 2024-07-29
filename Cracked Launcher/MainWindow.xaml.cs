@@ -15,7 +15,7 @@ namespace Cracked_Launcher
 
             // Handle navigation item click
             nvSample.ItemInvoked += NvSample_ItemInvoked;
-            contentFrame.Navigate(typeof(BlankPage1));
+            contentFrame.Navigate(typeof(HomePage1));
             nvSample.SelectedItem = nvSample.MenuItems[0];
         }
 
@@ -27,9 +27,12 @@ namespace Cracked_Launcher
 
                 if (tag == "HomePage")
                 {
-                    contentFrame.Navigate(typeof(BlankPage1));
+                    contentFrame.Navigate(typeof(HomePage1));
                 }
-                // Add more conditions here for other pages if needed
+                if (tag == "Recents")
+                {
+                    contentFrame.Navigate(typeof(Recents1));
+                }
             }
         }
     }
