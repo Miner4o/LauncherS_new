@@ -4,27 +4,27 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Cracked_Launcher"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d">
+    xmlns:mc="http://schemas.microsoft.com/markup-compatibility/2006">
+
     <Window.SystemBackdrop>
-        <DesktopAcrylicBackdrop />
+        <MicaBackdrop />
     </Window.SystemBackdrop>
 
-    <Grid>
+    <Grid Background="Transparent">
         <!-- UIElement set as titlebar -->
-        <Border x:ConnectionId='2' x:Name="AppTitleBar" Background="Transparent" Grid.Row="0" VerticalAlignment="Top">
+        <Border x:ConnectionId='2' x:Name="AppTitleBar" Background="Transparent" VerticalAlignment="Top" HorizontalAlignment="Stretch">
             <TextBlock x:ConnectionId='5' x:Name="AppTitle" VerticalAlignment="Top" Margin="10,8,0,0" />
         </Border>
-        
-        <NavigationView x:ConnectionId='3' x:Name="nvSample" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsBackEnabled="False" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="250">
+
+        <NavigationView x:ConnectionId='3' x:Name="nvSample" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsBackEnabled="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent"                                   >
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Home" Content="Home" Tag="HomePage"/>
-                <NavigationViewItem Icon="Play" Content="Recent Games" Tag="Recents" />
-                <NavigationViewItem Icon="Library" Content="Library" Tag="SamplePage2" />
-                <NavigationViewItem Icon="XboxOneConsole" Content="Add games" Tag="SamplePage3" />
-                <NavigationViewItem Icon="Download" Content="Download" Tag="SamplePage4" />
+                <NavigationViewItem Icon="Home" Content="Dashboard" Tag="HomePage1" />
+                <NavigationViewItem Icon="Play" Content="Menu Item1" Tag="Recents1" />
+                <NavigationViewItem Icon="Save" Content="Menu Item2" Tag="SamplePage2" />
+                <NavigationViewItem Icon="Refresh" Content="Menu Item3" Tag="SamplePage3" />
+                <NavigationViewItem Icon="Download" Content="Menu Item4" Tag="SamplePage4" />
             </NavigationView.MenuItems>
-            <Frame x:ConnectionId='4' x:Name="contentFrame"/>
+            <Frame x:ConnectionId='4' x:Name="contentFrame" Background="Transparent"/>
         </NavigationView>
     </Grid>
 </Window>

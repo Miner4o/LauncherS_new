@@ -25,11 +25,11 @@ namespace Cracked_Launcher
             {
                 var tag = args.InvokedItemContainer.Tag.ToString();
 
-                if (tag == "HomePage")
+                if (tag == "HomePage1")
                 {
                     contentFrame.Navigate(typeof(HomePage1));
                 }
-                if (tag == "Recents")
+                else if (tag == "Recents1")
                 {
                     contentFrame.Navigate(typeof(Recents1));
                 }
