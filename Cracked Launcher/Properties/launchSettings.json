@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Cracked Launcher (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Cracked Launcher (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
