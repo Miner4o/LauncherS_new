@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-30T12:16:04.177</Modified>
+      <Modified>2024-07-30T16:39:46.981</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-07-30T12:16:03.960</Modified>
+      <Modified>2024-07-30T16:39:46.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.runtimeconfig.json">
       <PackagePath>Cracked Launcher.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.dll">
       <PackagePath>Cracked Launcher.dll</PackagePath>
-      <Modified>2024-07-30T12:16:03.760</Modified>
+      <Modified>2024-07-30T16:39:46.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>Cracked Launcher.exe</PackagePath>
-      <Modified>2024-07-30T12:16:03.839</Modified>
+      <Modified>2024-07-30T16:39:46.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.deps.json">
       <PackagePath>Cracked Launcher.deps.json</PackagePath>

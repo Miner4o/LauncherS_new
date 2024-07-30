@@ -1,3 +1,4 @@
+using Cracked_Launcher.Library;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
 using System;
