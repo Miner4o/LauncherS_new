@@ -15,24 +15,60 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
         <TextBlock Text="Settings" FontSize="30" FontWeight="Bold" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,20"/>
-        <PasswordBox Width="300" 
-         Header="Password" 
-         PlaceholderText="Enter your password" 
-         VerticalAlignment="Center" 
-         HorizontalAlignment="Left"
-         Margin="0 60 0 0"/>
 
-        <ToggleSwitch 
-        AutomationProperties.Name="simple ToggleSwitch"
-        Header="Neshto si"
-        VerticalAlignment="Center" 
-        HorizontalAlignment="Left"
-        Margin="0 170 0 0"/>
+        <!-- Left side settings -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,20,0">
+            <PasswordBox Width="300" 
+                         Header="Password" 
+                         PlaceholderText="Enter your password" 
+                         VerticalAlignment="Top" 
+                         HorizontalAlignment="Left"
+                         Margin="0,0,0,20"/>
+            <ToggleSwitch AutomationProperties.Name="simple ToggleSwitch"
+                          Header="Enable Feature"
+                          VerticalAlignment="Top" 
+                          HorizontalAlignment="Left"
+                          Margin="0,0,0,20"/>
+            <Slider Header="Volume" 
+                    Width="300" 
+                    Minimum="0" 
+                    Maximum="100" 
+                    VerticalAlignment="Top" 
+                    HorizontalAlignment="Left"
+                    Margin="0,0,0,20"/>
+            <ComboBox Header="Language" 
+                      Width="300" 
+                      VerticalAlignment="Top" 
+                      HorizontalAlignment="Left"
+                      Margin="0,0,0,20">
+                <ComboBoxItem Content="English"/>
+                <ComboBoxItem Content="Spanish"/>
+                <ComboBoxItem Content="French"/>
+                <ComboBoxItem Content="German"/>
+            </ComboBox>
+        </StackPanel>
 
+        <!-- Right side settings -->
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="Appearance" FontSize="20" FontWeight="SemiBold" Margin="0,0,0,10"/>
+            <RadioButtons Header="Theme" 
+                          VerticalAlignment="Top" 
+                          HorizontalAlignment="Left"
+                          Margin="0,0,0,20">
+                <RadioButton Content="Light"/>
+                <RadioButton Content="Dark"/>
+                <RadioButton Content="System Default"/>
+            </RadioButtons>
+            <Button Content="Save Settings" 
+                    Width="200" 
+                    VerticalAlignment="Top" 
+                    HorizontalAlignment="Left"
+                    Margin="0,20,0,0"/>
+        </StackPanel>
     </Grid>
 </Page>

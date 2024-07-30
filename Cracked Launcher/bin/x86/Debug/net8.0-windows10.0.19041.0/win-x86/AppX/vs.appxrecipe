@@ -29,29 +29,29 @@
     <AppXManifest Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-30T08:25:50.047</Modified>
+      <Modified>2024-07-30T10:13:12.378</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-07-30T08:25:49.784</Modified>
+      <Modified>2024-07-30T10:13:12.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.runtimeconfig.json">
       <PackagePath>Cracked Launcher.runtimeconfig.json</PackagePath>
-      <Modified>2024-07-29T12:55:40.728</Modified>
+      <Modified>2024-07-30T10:11:04.173</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.dll">
       <PackagePath>Cracked Launcher.dll</PackagePath>
-      <Modified>2024-07-30T08:25:49.507</Modified>
+      <Modified>2024-07-30T10:13:11.755</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>Cracked Launcher.exe</PackagePath>
-      <Modified>2024-07-30T08:25:49.647</Modified>
+      <Modified>2024-07-30T10:13:11.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.deps.json">
       <PackagePath>Cracked Launcher.deps.json</PackagePath>
-      <Modified>2024-07-29T21:26:23.933</Modified>
+      <Modified>2024-07-30T10:13:12.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

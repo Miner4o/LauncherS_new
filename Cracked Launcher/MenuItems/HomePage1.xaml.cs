@@ -4,6 +4,7 @@ using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.UI.Xaml.Navigation;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace Cracked_Launcher
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime Date { get; set; }
+        public string Image { get; set; } // Add an image property
     }
 
     /// <summary>
@@ -38,13 +40,23 @@ namespace Cracked_Launcher
             // Initialize the collection of news items
             NewsItems = new ObservableCollection<NewsItem>
             {
-                new NewsItem { Title = "News Title 1", Description = "Description for news item 1", Date = DateTime.Now },
-                new NewsItem { Title = "News Title 2", Description = "Description for news item 2", Date = DateTime.Now.AddDays(-1) },
-                new NewsItem { Title = "News Title 3", Description = "Description for news item 3", Date = DateTime.Now.AddDays(-2) }
+                new NewsItem { Title = "Minecraft for Windows 10", Description = "Play the free trial today", Date = DateTime.Now, Image = "ms-appx:///Assets/minecraft.jpg" },
+                new NewsItem { Title = "Mystery of the Opera", Description = "Das Geheimnis des Phantom", Date = DateTime.Now.AddDays(-1), Image = "ms-appx:///Assets/opera.jpg" },
+                new NewsItem { Title = "Game of Emperors", Description = "", Date = DateTime.Now.AddDays(-2), Image = "ms-appx:///Assets/emperors.jpg" },
+                new NewsItem { Title = "Amazon Music", Description = "", Date = DateTime.Now.AddDays(-3), Image = "ms-appx:///Assets/music.jpg" },
+                new NewsItem { Title = "iTunes", Description = "", Date = DateTime.Now.AddDays(-4), Image = "ms-appx:///Assets/itunes.jpg" },
+                new NewsItem { Title = "Cooking Fever", Description = "", Date = DateTime.Now.AddDays(-5), Image = "ms-appx:///Assets/cooking.jpg" }
             };
 
             // Set the DataContext for data binding
             this.DataContext = this;
+        }
+        private void NewsItem_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            var border = (Border)sender;
+            var connectedAnimationService = ConnectedAnimationService.GetForCurrentView();
+            connectedAnimationService.PrepareToAnimate("Image", border);
+            Frame.Navigate(typeof(DetailPage), border.DataContext);
         }
     }
 }
