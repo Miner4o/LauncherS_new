@@ -23,7 +23,6 @@
         <PasswordBox Width="300" 
          Header="Password" 
          PlaceholderText="Enter your password" 
-         PasswordChar="#" 
          VerticalAlignment="Center" 
          HorizontalAlignment="Left"
          Margin="0 60 0 0"/>
@@ -31,7 +30,9 @@
         <ToggleSwitch 
         AutomationProperties.Name="simple ToggleSwitch"
         Header="Neshto si"
-        Margin="0 70 0 0"/>
+        VerticalAlignment="Center" 
+        HorizontalAlignment="Left"
+        Margin="0 170 0 0"/>
 
     </Grid>
 </Page>

@@ -11,39 +11,66 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Text="Dashboard" FontSize="30" FontWeight="Bold" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,20"/>
+        <TextBlock Text="Dashboard" FontSize="30" FontWeight="Bold" Grid.Row="0" Grid.Column="0" Margin="0,0,0,20"/>
 
-        <!-- Left side - Example of a dashboard item -->
-        <StackPanel Grid.Row="1" Grid.Column="0" Margin="0,0,20,0">
-            <Border Background="Transparent" Width="300" Height="200" Margin="0,0,0,20">
-                <TextBlock Text="Item 1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-            <Border Background="Transparent" Width="300" Height="200">
-                <TextBlock Text="Item 2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Border>
-        </StackPanel>
+        <!-- Main content area -->
+        <Grid Grid.Row="1" Grid.Column="0" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
-        <!-- Right side - News List -->
-        <StackPanel Grid.Row="1" Grid.Column="1">
-            <TextBlock Text="Latest News" FontSize="24" FontWeight="SemiBold" Margin="0,0,0,10"/>
-            <ListView ItemsSource="{Binding NewsItems}">
-                <ListView.ItemTemplate>
-                    <DataTemplate                            >
-                        <Border Background="Transparent" Margin="0,0,0,10" Padding="10" CornerRadius="8">
-                            <StackPanel>
-                                <TextBlock Text="{Binding Title}" FontSize="18" FontWeight="SemiBold"/>
-                                <TextBlock Text="{Binding Description}" TextWrapping="WrapWholeWords" Margin="0,5,0,0"/>
-                                <TextBlock Text="{Binding Date}" FontStyle="Italic" FontSize="12"/>
-                            </StackPanel>
-                        </Border>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackPanel>
+            <!-- Large main item -->
+            <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Margin="5" Background="Gray" CornerRadius="10">
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/minecraft.jpg" Stretch="UniformToFill" Height="200"/>
+                    <TextBlock Text="Minecraft for Windows 10" FontSize="20" FontWeight="Bold" Margin="10,0,0,5"/>
+                    <TextBlock Text="Play the free trial today" FontSize="14" Margin="10,0,0,5"/>
+                    <TextBlock Text="£22.49" FontSize="14" Margin="10,0,0,5"/>
+                </StackPanel>
+            </Border>
+
+            <!-- Small items -->
+            <Border Grid.Row="0" Grid.Column="1" Margin="5" Background="Gray" CornerRadius="10">
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/opera.jpg" Stretch="UniformToFill" Height="100"/>
+                    <TextBlock Text="Mystery of the Opera" FontSize="16" FontWeight="Bold" Margin="10,0,0,5"/>
+                    <TextBlock Text="Das Geheimnis des Phantom" FontSize="14" Margin="10,0,0,5"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="0" Grid.Column="2" Margin="5" Background="Gray" CornerRadius="10">
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/emperors.jpg" Stretch="UniformToFill" Height="100"/>
+                    <TextBlock Text="Game of Emperors" FontSize="16" FontWeight="Bold" Margin="10,0,0,5"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="1" Margin="5" Background="Gray" CornerRadius="10">
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/music.jpg" Stretch="UniformToFill" Height="100"/>
+                    <TextBlock Text="Amazon Music" FontSize="16" FontWeight="Bold" Margin="10,0,0,5"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="1" Grid.Column="2" Margin="5" Background="Gray" CornerRadius="10">
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/itunes.jpg" Stretch="UniformToFill" Height="100"/>
+                    <TextBlock Text="iTunes" FontSize="16" FontWeight="Bold" Margin="10,0,0,5"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" Background="Gray" CornerRadius="10">
+                <StackPanel>
+                    <Image Source="ms-appx:///Assets/cooking.jpg" Stretch="UniformToFill" Height="100"/>
+                    <TextBlock Text="Cooking Fever" FontSize="16" FontWeight="Bold" Margin="10,0,0,5"/>
+                </StackPanel>
+            </Border>
+        </Grid>
     </Grid>
 </Page>
 
