@@ -1,3 +1,4 @@
+using Cracked_Launcher.Library;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
@@ -36,6 +37,10 @@ namespace Cracked_Launcher
                 else if(tag == "Settings")
                 {
                     contentFrame.Navigate(typeof(Settings));
+                }
+                else if (tag == "Library")
+                {
+                    contentFrame.Navigate(typeof(LibraryPage));
                 }
             }
         }
