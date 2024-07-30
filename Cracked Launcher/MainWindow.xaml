@@ -19,9 +19,9 @@
         <NavigationView x:Name="nvSample" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsBackEnabled="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" ItemInvoked="NvSample_ItemInvoked">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Content="Dashboard" Tag="HomePage1" />
-                <NavigationViewItem Icon="Play" Content="Menu Item1" Tag="Recents1" />
-                <NavigationViewItem Icon="Save" Content="Menu Item2" Tag="SamplePage2" />
-                <NavigationViewItem Icon="Refresh" Content="Menu Item3" Tag="SamplePage3" />
+                <NavigationViewItem Icon="Play" Content="Recent Games" Tag="Recents1" />
+                <NavigationViewItem Icon="Library" Content="Library" Tag="SamplePage2" />
+                <NavigationViewItem Icon="World" Content="Menu Item3" Tag="SamplePage3" />
                 <NavigationViewItem Icon="Download" Content="Menu Item4" Tag="SamplePage4" />
             </NavigationView.MenuItems>
             <Frame x:Name="contentFrame" Background="Transparent"/>

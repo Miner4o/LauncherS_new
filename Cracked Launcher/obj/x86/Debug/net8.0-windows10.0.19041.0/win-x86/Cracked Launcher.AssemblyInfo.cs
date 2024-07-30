@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cracked Launcher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f23e191f311b6d2a30302061bf881a01dee36a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e452e109b02a239be0e64c7a2238317fda44050")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cracked Launcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cracked Launcher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

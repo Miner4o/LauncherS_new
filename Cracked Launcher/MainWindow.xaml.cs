@@ -33,6 +33,10 @@ namespace Cracked_Launcher
                 {
                     contentFrame.Navigate(typeof(Recents1));
                 }
+                else if(tag == "Settings")
+                {
+                    contentFrame.Navigate(typeof(Settings));
+                }
             }
         }
     }

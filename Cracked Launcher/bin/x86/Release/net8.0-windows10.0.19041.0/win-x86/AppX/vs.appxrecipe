@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MINER4O</Machine>
+    <WindowsUser>mvili</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>2d2c9352-b44e-4674-9731-be1902c35cab</PackageIdentityName>
+    <PackageIdentityPublisher>CN=mvili</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\AppX</LayoutDir>
+    <RegisteredManifestChecksum>DDBC9ADFBEC3FE7256BCF2F3D39EFB381E5585CA5FFE0E76F00850E9B2408F48</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2d2c9352-b44e-4674-9731-be1902c35cab_1.0.0.0_x86__wgzw2mjjykjat</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2d2c9352-b44e-4674-9731-be1902c35cab_wgzw2mjjykjat!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2d2c9352-b44e-4674-9731-be1902c35cab</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=mvili</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-07-30T10:10:38.853</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-07-30T10:09:01.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.runtimeconfig.json">
+      <PackagePath>Cracked Launcher.runtimeconfig.json</PackagePath>
+      <Modified>2024-07-30T10:09:00.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
+      <PackagePath>Cracked Launcher.exe</PackagePath>
+      <Modified>2024-07-30T10:10:26.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\Microsoft.DiaSymReader.Native.x86.dll">
+      <PackagePath>Microsoft.DiaSymReader.Native.x86.dll</PackagePath>
+      <Modified>2024-04-27T23:23:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\System.IO.Compression.Native.dll">
+      <PackagePath>System.IO.Compression.Native.dll</PackagePath>
+      <Modified>2024-06-13T19:42:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\clretwrc.dll">
+      <PackagePath>clretwrc.dll</PackagePath>
+      <Modified>2024-06-13T19:31:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\clrgc.dll">
+      <PackagePath>clrgc.dll</PackagePath>
+      <Modified>2024-06-13T19:27:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2024-06-13T19:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\coreclr.dll">
+      <PackagePath>coreclr.dll</PackagePath>
+      <Modified>2024-06-13T19:32:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\createdump.exe">
+      <PackagePath>createdump.exe</PackagePath>
+      <Modified>2024-06-13T19:30:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\hostfxr.dll">
+      <PackagePath>hostfxr.dll</PackagePath>
+      <Modified>2024-06-13T19:40:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\hostpolicy.dll">
+      <PackagePath>hostpolicy.dll</PackagePath>
+      <Modified>2024-06-13T19:41:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\mscordaccore.dll">
+      <PackagePath>mscordaccore.dll</PackagePath>
+      <Modified>2024-06-13T19:36:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\mscordaccore_x86_x86_8.0.724.31311.dll">
+      <PackagePath>mscordaccore_x86_x86_8.0.724.31311.dll</PackagePath>
+      <Modified>2024-06-13T19:36:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\mscordbi.dll">
+      <PackagePath>mscordbi.dll</PackagePath>
+      <Modified>2024-06-13T19:36:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\mscorrc.dll">
+      <PackagePath>mscorrc.dll</PackagePath>
+      <Modified>2024-06-13T19:31:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\msquic.dll">
+      <PackagePath>msquic.dll</PackagePath>
+      <Modified>2024-03-12T16:41:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2024-06-25T19:48:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\linked\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2024-07-30T10:10:34.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2024-07-30T10:10:34.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Cracked Launcher.dll">
+      <PackagePath>Cracked Launcher.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2024-07-30T10:10:35.986</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Private.CoreLib.dll">
+      <PackagePath>System.Private.CoreLib.dll</PackagePath>
+      <Modified>2024-07-30T10:10:37.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2024-07-30T10:10:38.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2024-07-30T10:10:38.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Security.Cryptography.dll">
+      <PackagePath>System.Security.Cryptography.dll</PackagePath>
+      <Modified>2024-07-30T10:10:38.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2024-07-30T10:10:38.318</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2024-07-30T10:10:38.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.deps.json">
+      <PackagePath>Cracked Launcher.deps.json</PackagePath>
+      <Modified>2024-07-30T10:09:13.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-29T11:47:16.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-07-29T11:47:16.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-07-29T11:47:16.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2024-07-29T11:47:16.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2024-07-29T11:47:16.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <Modified>2024-07-29T11:47:16.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2024-07-29T11:47:16.033</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.178.1908.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.178.1908.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.178.1908.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.178.1908.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.178.1908.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.178.1908.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.5</Name>
+      <Version>5001.178.1908.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.5, MinVersion = 5001.178.1908.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\mvili\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.5.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

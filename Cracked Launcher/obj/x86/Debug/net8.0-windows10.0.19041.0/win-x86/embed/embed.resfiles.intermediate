@@ -1,4 +1,7 @@
 App.xbf
-HomePage1.xbf
 MainWindow.xbf
-Recents1.xbf
+MenuItems\HomePage1.xbf
+MenuItems\Recents1.xbf
+MenuItems\Settings.xbf
+PageItems\DetailPage.xbf
+PageItems\GameDetailPage.xbf

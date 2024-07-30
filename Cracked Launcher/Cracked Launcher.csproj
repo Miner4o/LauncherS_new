@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
@@ -14,7 +14,10 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="HomePage1.xaml" />
+    <None Remove="PageItems\DetailPage.xaml" />
+    <None Remove="PageItems\GameDetailPage.xaml" />
     <None Remove="Recents1.xaml" />
+    <None Remove="Settings.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -60,4 +63,23 @@
   <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
     <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
   </PropertyGroup>
+  <ItemGroup>
+    <CustomAdditionalCompileInputs Remove="Settings.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Remove="Settings.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MenuItems\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="PageItems\GameDetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="PageItems\DetailPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
 </Project>
