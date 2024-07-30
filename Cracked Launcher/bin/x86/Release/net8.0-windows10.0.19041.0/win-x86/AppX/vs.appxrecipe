@@ -29,21 +29,21 @@
     <AppXManifest Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-30T10:10:38.853</Modified>
+      <Modified>2024-07-30T11:40:45.747</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-07-30T10:09:01.115</Modified>
+      <Modified>2024-07-30T11:39:49.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Release\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.runtimeconfig.json">
       <PackagePath>Cracked Launcher.runtimeconfig.json</PackagePath>
-      <Modified>2024-07-30T10:09:00.998</Modified>
+      <Modified>2024-07-30T11:39:48.951</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>Cracked Launcher.exe</PackagePath>
-      <Modified>2024-07-30T10:10:26.900</Modified>
+      <Modified>2024-07-30T11:39:48.336</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\native\Microsoft.DiaSymReader.Native.x86.dll">
       <PackagePath>Microsoft.DiaSymReader.Native.x86.dll</PackagePath>
@@ -107,83 +107,83 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\linked\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2024-07-30T10:10:34.243</Modified>
+      <Modified>2024-07-30T11:39:56.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
-      <Modified>2024-07-30T10:10:34.797</Modified>
+      <Modified>2024-07-30T11:39:56.776</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.WinUI.dll">
       <PackagePath>Microsoft.WinUI.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.031</Modified>
+      <Modified>2024-07-30T11:39:56.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Cracked Launcher.dll">
       <PackagePath>Cracked Launcher.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.151</Modified>
+      <Modified>2024-07-30T11:39:57.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.245</Modified>
+      <Modified>2024-07-30T11:39:57.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.331</Modified>
+      <Modified>2024-07-30T11:39:57.274</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.406</Modified>
+      <Modified>2024-07-30T11:39:57.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.497</Modified>
+      <Modified>2024-07-30T11:39:57.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.594</Modified>
+      <Modified>2024-07-30T11:39:57.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.IO.MemoryMappedFiles.dll">
       <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.688</Modified>
+      <Modified>2024-07-30T11:39:57.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.783</Modified>
+      <Modified>2024-07-30T11:39:57.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.894</Modified>
+      <Modified>2024-07-30T11:39:57.940</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2024-07-30T10:10:35.986</Modified>
+      <Modified>2024-07-30T11:39:58.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Private.CoreLib.dll">
       <PackagePath>System.Private.CoreLib.dll</PackagePath>
-      <Modified>2024-07-30T10:10:37.862</Modified>
+      <Modified>2024-07-30T11:39:59.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2024-07-30T10:10:38.009</Modified>
+      <Modified>2024-07-30T11:39:59.583</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2024-07-30T10:10:38.163</Modified>
+      <Modified>2024-07-30T11:39:59.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\System.Security.Cryptography.dll">
       <PackagePath>System.Security.Cryptography.dll</PackagePath>
-      <Modified>2024-07-30T10:10:38.240</Modified>
+      <Modified>2024-07-30T11:39:59.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
-      <Modified>2024-07-30T10:10:38.318</Modified>
+      <Modified>2024-07-30T11:39:59.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\R2R\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
-      <Modified>2024-07-30T10:10:38.778</Modified>
+      <Modified>2024-07-30T11:40:00.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Release\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.deps.json">
       <PackagePath>Cracked Launcher.deps.json</PackagePath>
-      <Modified>2024-07-30T10:09:13.390</Modified>
+      <Modified>2024-07-30T11:40:00.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

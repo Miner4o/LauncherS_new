@@ -1,6 +1,7 @@
 App.xbf
 MainWindow.xbf
 MenuItems\HomePage1.xbf
+MenuItems\LibraryPage.xbf
 MenuItems\Recents1.xbf
 MenuItems\Settings.xbf
 PageItems\DetailPage.xbf

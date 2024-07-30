@@ -14,6 +14,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="HomePage1.xaml" />
+    <None Remove="MenuItems\LibraryPage.xaml" />
     <None Remove="PageItems\DetailPage.xaml" />
     <None Remove="PageItems\GameDetailPage.xaml" />
     <None Remove="Recents1.xaml" />
@@ -70,9 +71,6 @@
     <Resource Remove="Settings.xaml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MenuItems\" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Update="PageItems\GameDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -81,5 +79,11 @@
     <Page Update="PageItems\DetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomAdditionalCompileInputs Remove="MenuItems\LibraryPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Remove="MenuItems\LibraryPage.xaml" />
   </ItemGroup>
 </Project>
