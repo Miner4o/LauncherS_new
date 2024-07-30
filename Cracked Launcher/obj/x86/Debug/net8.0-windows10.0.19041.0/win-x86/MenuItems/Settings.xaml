@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Cracked_Launcher.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cracked_Launcher"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Transparent">
+
+    <Grid Background="Transparent" Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Settings" FontSize="30" FontWeight="Bold" Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,0,20"/>
+        <PasswordBox Width="300" 
+         Header="Password" 
+         PlaceholderText="Enter your password" 
+         PasswordChar="#" 
+         VerticalAlignment="Center" 
+         HorizontalAlignment="Left"
+         Margin="0 60 0 0"/>
+
+        <ToggleSwitch 
+        AutomationProperties.Name="simple ToggleSwitch"
+        Header="Neshto si"
+        Margin="0 70 0 0"/>
+
+    </Grid>
+</Page>
+

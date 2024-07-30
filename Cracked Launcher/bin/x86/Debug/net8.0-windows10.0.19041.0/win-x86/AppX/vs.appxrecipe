@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-29T17:55:36.786</Modified>
+      <Modified>2024-07-30T08:06:20.340</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-07-29T17:55:29.335</Modified>
+      <Modified>2024-07-30T08:06:20.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.runtimeconfig.json">
       <PackagePath>Cracked Launcher.runtimeconfig.json</PackagePath>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.dll">
       <PackagePath>Cracked Launcher.dll</PackagePath>
-      <Modified>2024-07-29T17:55:36.386</Modified>
+      <Modified>2024-07-30T08:06:19.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>Cracked Launcher.exe</PackagePath>
-      <Modified>2024-07-29T17:55:36.391</Modified>
+      <Modified>2024-07-30T08:06:19.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.deps.json">
       <PackagePath>Cracked Launcher.deps.json</PackagePath>
-      <Modified>2024-07-29T16:11:19.543</Modified>
+      <Modified>2024-07-29T21:26:23.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mvili\.nuget\packages\microsoft.netcore.app.runtime.win-x86\8.0.7\runtimes\win-x86\lib\net8.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
