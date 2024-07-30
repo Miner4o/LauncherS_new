@@ -16,6 +16,7 @@ namespace Cracked_Launcher.Library
         public string Description { get; set; }
         public string Image { get; set; }
         public double Rating { get; set; }
+        public string Staus { get; set; }
     }
 
     public sealed partial class LibraryPage : Page

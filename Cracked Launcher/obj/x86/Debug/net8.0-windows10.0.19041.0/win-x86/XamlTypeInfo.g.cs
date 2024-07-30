@@ -830,6 +830,7 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 userType.AddMemberName("Description");
                 userType.AddMemberName("Image");
                 userType.AddMemberName("Rating");
+                userType.AddMemberName("Staus");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -837,7 +838,7 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
             case 50:   //  Cracked_Launcher.Recents1
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_50_Recents1;
-                userType.AddMemberName("Games");
+                userType.AddMemberName("GameItems");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -860,9 +861,9 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_53_GameItem;
                 userType.AddMemberName("Title");
-                userType.AddMemberName("Image");
                 userType.AddMemberName("Rating");
                 userType.AddMemberName("Status");
+                userType.AddMemberName("Image");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -1572,35 +1573,35 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
             var that = (global::Cracked_Launcher.Library.GameItem)instance;
             that.Rating = (global::System.Double)Value;
         }
-        private object get_62_Recents1_Games(object instance)
+        private object get_62_GameItem_Staus(object instance)
+        {
+            var that = (global::Cracked_Launcher.Library.GameItem)instance;
+            return that.Staus;
+        }
+        private void set_62_GameItem_Staus(object instance, object Value)
+        {
+            var that = (global::Cracked_Launcher.Library.GameItem)instance;
+            that.Staus = (global::System.String)Value;
+        }
+        private object get_63_Recents1_GameItems(object instance)
         {
             var that = (global::Cracked_Launcher.Recents1)instance;
-            return that.Games;
+            return that.GameItems;
         }
-        private void set_62_Recents1_Games(object instance, object Value)
+        private void set_63_Recents1_GameItems(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Recents1)instance;
-            that.Games = (global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>)Value;
+            that.GameItems = (global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>)Value;
         }
-        private object get_63_GameItem_Title(object instance)
+        private object get_64_GameItem_Title(object instance)
         {
             var that = (global::Cracked_Launcher.GameItem)instance;
             return that.Title;
         }
-        private void set_63_GameItem_Title(object instance, object Value)
+        private void set_64_GameItem_Title(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.GameItem)instance;
             that.Title = (global::System.String)Value;
-        }
-        private object get_64_GameItem_Image(object instance)
-        {
-            var that = (global::Cracked_Launcher.GameItem)instance;
-            return that.Image;
-        }
-        private void set_64_GameItem_Image(object instance, object Value)
-        {
-            var that = (global::Cracked_Launcher.GameItem)instance;
-            that.Image = (global::System.String)Value;
         }
         private object get_65_GameItem_Rating(object instance)
         {
@@ -1610,7 +1611,7 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
         private void set_65_GameItem_Rating(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.GameItem)instance;
-            that.Rating = (global::System.Double)Value;
+            that.Rating = (global::System.String)Value;
         }
         private object get_66_GameItem_Status(object instance)
         {
@@ -1622,137 +1623,147 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
             var that = (global::Cracked_Launcher.GameItem)instance;
             that.Status = (global::System.String)Value;
         }
-        private object get_67_RadioButtons_Items(object instance)
+        private object get_67_GameItem_Image(object instance)
+        {
+            var that = (global::Cracked_Launcher.GameItem)instance;
+            return that.Image;
+        }
+        private void set_67_GameItem_Image(object instance, object Value)
+        {
+            var that = (global::Cracked_Launcher.GameItem)instance;
+            that.Image = (global::System.String)Value;
+        }
+        private object get_68_RadioButtons_Items(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.Items;
         }
-        private object get_68_RadioButtons_Header(object instance)
+        private object get_69_RadioButtons_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.Header;
         }
-        private void set_68_RadioButtons_Header(object instance, object Value)
+        private void set_69_RadioButtons_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_69_RadioButtons_HeaderTemplate(object instance)
+        private object get_70_RadioButtons_HeaderTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.HeaderTemplate;
         }
-        private void set_69_RadioButtons_HeaderTemplate(object instance, object Value)
+        private void set_70_RadioButtons_HeaderTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_70_RadioButtons_ItemTemplate(object instance)
+        private object get_71_RadioButtons_ItemTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.ItemTemplate;
         }
-        private void set_70_RadioButtons_ItemTemplate(object instance, object Value)
+        private void set_71_RadioButtons_ItemTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.ItemTemplate = (global::System.Object)Value;
         }
-        private object get_71_RadioButtons_ItemsSource(object instance)
+        private object get_72_RadioButtons_ItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.ItemsSource;
         }
-        private void set_71_RadioButtons_ItemsSource(object instance, object Value)
+        private void set_72_RadioButtons_ItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.ItemsSource = (global::System.Object)Value;
         }
-        private object get_72_RadioButtons_MaxColumns(object instance)
+        private object get_73_RadioButtons_MaxColumns(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.MaxColumns;
         }
-        private void set_72_RadioButtons_MaxColumns(object instance, object Value)
+        private void set_73_RadioButtons_MaxColumns(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.MaxColumns = (global::System.Int32)Value;
         }
-        private object get_73_RadioButtons_SelectedIndex(object instance)
+        private object get_74_RadioButtons_SelectedIndex(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.SelectedIndex;
         }
-        private void set_73_RadioButtons_SelectedIndex(object instance, object Value)
+        private void set_74_RadioButtons_SelectedIndex(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.SelectedIndex = (global::System.Int32)Value;
         }
-        private object get_74_RadioButtons_SelectedItem(object instance)
+        private object get_75_RadioButtons_SelectedItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.SelectedItem;
         }
-        private void set_74_RadioButtons_SelectedItem(object instance, object Value)
+        private void set_75_RadioButtons_SelectedItem(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_75_DetailPage_DetailedObject(object instance)
+        private object get_76_DetailPage_DetailedObject(object instance)
         {
             var that = (global::Cracked_Launcher.DetailPage)instance;
             return that.DetailedObject;
         }
-        private void set_75_DetailPage_DetailedObject(object instance, object Value)
+        private void set_76_DetailPage_DetailedObject(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.DetailPage)instance;
             that.DetailedObject = (global::Cracked_Launcher.NewsItem)Value;
         }
-        private object get_76_TreeViewNode_Children(object instance)
+        private object get_77_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_77_TreeViewNode_Content(object instance)
+        private object get_78_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_77_TreeViewNode_Content(object instance, object Value)
+        private void set_78_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_78_TreeViewNode_Depth(object instance)
+        private object get_79_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_79_TreeViewNode_HasChildren(object instance)
+        private object get_80_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_80_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_81_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_80_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_81_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_81_TreeViewNode_IsExpanded(object instance)
+        private object get_82_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_81_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_82_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_82_TreeViewNode_Parent(object instance)
+        private object get_83_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -2186,27 +2197,27 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlMember.Getter = get_61_GameItem_Rating;
                 xamlMember.Setter = set_61_GameItem_Rating;
                 break;
-            case "Cracked_Launcher.Recents1.Games":
+            case "Cracked_Launcher.Library.GameItem.Staus":
+                userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.GameItem");
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Staus", "String");
+                xamlMember.Getter = get_62_GameItem_Staus;
+                xamlMember.Setter = set_62_GameItem_Staus;
+                break;
+            case "Cracked_Launcher.Recents1.GameItems":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Recents1");
-                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Games", "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.GameItem>");
-                xamlMember.Getter = get_62_Recents1_Games;
-                xamlMember.Setter = set_62_Recents1_Games;
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "GameItems", "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.GameItem>");
+                xamlMember.Getter = get_63_Recents1_GameItems;
+                xamlMember.Setter = set_63_Recents1_GameItems;
                 break;
             case "Cracked_Launcher.GameItem.Title":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Title", "String");
-                xamlMember.Getter = get_63_GameItem_Title;
-                xamlMember.Setter = set_63_GameItem_Title;
-                break;
-            case "Cracked_Launcher.GameItem.Image":
-                userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
-                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Image", "String");
-                xamlMember.Getter = get_64_GameItem_Image;
-                xamlMember.Setter = set_64_GameItem_Image;
+                xamlMember.Getter = get_64_GameItem_Title;
+                xamlMember.Setter = set_64_GameItem_Title;
                 break;
             case "Cracked_Launcher.GameItem.Rating":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
-                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Rating", "Double");
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Rating", "String");
                 xamlMember.Getter = get_65_GameItem_Rating;
                 xamlMember.Setter = set_65_GameItem_Rating;
                 break;
@@ -2216,112 +2227,118 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlMember.Getter = get_66_GameItem_Status;
                 xamlMember.Setter = set_66_GameItem_Status;
                 break;
+            case "Cracked_Launcher.GameItem.Image":
+                userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Image", "String");
+                xamlMember.Getter = get_67_GameItem_Image;
+                xamlMember.Setter = set_67_GameItem_Image;
+                break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.Items":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_67_RadioButtons_Items;
+                xamlMember.Getter = get_68_RadioButtons_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.Header":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_RadioButtons_Header;
-                xamlMember.Setter = set_68_RadioButtons_Header;
+                xamlMember.Getter = get_69_RadioButtons_Header;
+                xamlMember.Setter = set_69_RadioButtons_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.HeaderTemplate":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_RadioButtons_HeaderTemplate;
-                xamlMember.Setter = set_69_RadioButtons_HeaderTemplate;
+                xamlMember.Getter = get_70_RadioButtons_HeaderTemplate;
+                xamlMember.Setter = set_70_RadioButtons_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.ItemTemplate":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_RadioButtons_ItemTemplate;
-                xamlMember.Setter = set_70_RadioButtons_ItemTemplate;
+                xamlMember.Getter = get_71_RadioButtons_ItemTemplate;
+                xamlMember.Setter = set_71_RadioButtons_ItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.ItemsSource":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_RadioButtons_ItemsSource;
-                xamlMember.Setter = set_71_RadioButtons_ItemsSource;
+                xamlMember.Getter = get_72_RadioButtons_ItemsSource;
+                xamlMember.Setter = set_72_RadioButtons_ItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.MaxColumns":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "MaxColumns", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_RadioButtons_MaxColumns;
-                xamlMember.Setter = set_72_RadioButtons_MaxColumns;
+                xamlMember.Getter = get_73_RadioButtons_MaxColumns;
+                xamlMember.Setter = set_73_RadioButtons_MaxColumns;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.SelectedIndex":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "SelectedIndex", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_RadioButtons_SelectedIndex;
-                xamlMember.Setter = set_73_RadioButtons_SelectedIndex;
+                xamlMember.Getter = get_74_RadioButtons_SelectedIndex;
+                xamlMember.Setter = set_74_RadioButtons_SelectedIndex;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.SelectedItem":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_RadioButtons_SelectedItem;
-                xamlMember.Setter = set_74_RadioButtons_SelectedItem;
+                xamlMember.Getter = get_75_RadioButtons_SelectedItem;
+                xamlMember.Setter = set_75_RadioButtons_SelectedItem;
                 break;
             case "Cracked_Launcher.DetailPage.DetailedObject":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.DetailPage");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "DetailedObject", "Cracked_Launcher.NewsItem");
-                xamlMember.Getter = get_75_DetailPage_DetailedObject;
-                xamlMember.Setter = set_75_DetailPage_DetailedObject;
+                xamlMember.Getter = get_76_DetailPage_DetailedObject;
+                xamlMember.Setter = set_76_DetailPage_DetailedObject;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_76_TreeViewNode_Children;
+                xamlMember.Getter = get_77_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_77_TreeViewNode_Content;
-                xamlMember.Setter = set_77_TreeViewNode_Content;
+                xamlMember.Getter = get_78_TreeViewNode_Content;
+                xamlMember.Setter = set_78_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_78_TreeViewNode_Depth;
+                xamlMember.Getter = get_79_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_79_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_80_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_80_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_80_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_81_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_81_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_81_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_81_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_82_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_82_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_82_TreeViewNode_Parent;
+                xamlMember.Getter = get_83_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }
