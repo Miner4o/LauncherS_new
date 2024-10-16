@@ -26,8 +26,8 @@ namespace Cracked_Launcher.Library
 
     public sealed partial class LibraryPage : Page
     {
-        [DllImport("C:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Debug\\AppDLL.dll", CallingConvention = CallingConvention.Cdecl)]
-        private static extern IntPtr OpenFileDialog(IntPtr hwndOwner, string filter);
+        [DllImport("C:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Debug\\AppDLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
+        private static extern IntPtr openFileDiag(IntPtr hwndOwner, string filter, string tittle);
 
         public ObservableCollection<NavLink> NavLinks { get; set; }
         public ObservableCollection<GameItem> Games { get; set; }
@@ -57,9 +57,27 @@ namespace Cracked_Launcher.Library
         {
             try
             {
+                // Проверете дали основният прозорец е зададен
+                if (App.MainWindow == null)
+                {
+                    await ShowContentDialog("Error: Main window is not set.");
+                    return;
+                }
+
+                // Получаване на хендъла на основния прозорец
+                IntPtr hwndOwner = WindowNative.GetWindowHandle(App.MainWindow);
+
+                // Проверка дали хендълът е валиден
+                if (hwndOwner == IntPtr.Zero)
+                {
+                    await ShowContentDialog("Error: Unable to get the window handle.");
+                    return;
+                }
+
+                // Извикване на OpenFileDialog от DLL
                 string filter = "All Files\0*.*\0Executable Files\0*.EXE\0Torrent Files\0*.TORRENT\0";
-                IntPtr hwndOwner = WindowNative.GetWindowHandle(Window.Current);
-                IntPtr resultPtr = OpenFileDialog(hwndOwner, filter);
+                string tittle = "Select a game:";
+                IntPtr resultPtr = openFileDiag(hwndOwner, filter, tittle);
 
                 if (resultPtr != IntPtr.Zero)
                 {

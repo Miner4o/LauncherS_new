@@ -22,7 +22,7 @@
 
             <!-- Add Torrent Button -->
             <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,10,0,10">
-                <Button Content="Add Torrent" Width="150" Margin="0,0,10,0"/>
+                <Button x:ConnectionId='4' Content="Add Torrent"                          Width="150" Margin="0,0,10,0"/>
                 <Button Content="Start Download" Width="150" Margin="0,0,10,0"/>
                 <Button Content="Pause" Width="100" Margin="0,0,10,0"/>
                 <Button Content="Stop" Width="100"/>

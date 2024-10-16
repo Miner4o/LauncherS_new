@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <commdlg.h>
 
-_declspec(dllexport) char* openFileDiag(HWND hwndOwner, const char* filter) {
+_declspec(dllexport) char* openFileDiag(HWND hwndOwner, const char* filter, const char* tittle) {
     static char fileName[MAX_PATH] = "";
 
     OPENFILENAME ofn;
@@ -14,7 +14,7 @@ _declspec(dllexport) char* openFileDiag(HWND hwndOwner, const char* filter) {
     ofn.lpstrFile = fileName;
     ofn.nMaxFile = MAX_PATH;
     ofn.Flags = OFN_PATHMUSTEXIST | OFN_FILEMUSTEXIST;
-    ofn.lpstrTitle = "Select a File";
+    ofn.lpstrTitle = tittle;
 
     if (GetOpenFileName(&ofn)) {
         return fileName;
