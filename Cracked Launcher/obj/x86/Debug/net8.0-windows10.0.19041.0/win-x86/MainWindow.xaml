@@ -21,7 +21,7 @@
                 <NavigationViewItem Icon="Home" Content="Dashboard" Tag="HomePage1" />
                 <NavigationViewItem Icon="Play" Content="Recent Games" Tag="Recents1" />
                 <NavigationViewItem Icon="Library" Content="Library" Tag="Library" />
-                <NavigationViewItem Icon="Download" Content="Downloads" Tag="SamplePage4" />
+                <NavigationViewItem Icon="Download" Content="Downloads" Tag="DownloadPage3" />
             </NavigationView.MenuItems>
             <Frame x:ConnectionId='4' x:Name="contentFrame" Background="Transparent"/>
         </NavigationView>

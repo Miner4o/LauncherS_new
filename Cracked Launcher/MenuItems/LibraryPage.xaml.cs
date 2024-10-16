@@ -1,9 +1,14 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
+using System;
 using System.Collections.ObjectModel;
+using System.Runtime.InteropServices;
+using Windows.UI.Popups;
+using WinRT.Interop;
 
 namespace Cracked_Launcher.Library
 {
+
     public class NavLink
     {
         public string Label { get; set; }
@@ -21,6 +26,9 @@ namespace Cracked_Launcher.Library
 
     public sealed partial class LibraryPage : Page
     {
+        [DllImport("C:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Debug\\AppDLL.dll", CallingConvention = CallingConvention.Cdecl)]
+        private static extern IntPtr OpenFileDialog(IntPtr hwndOwner, string filter);
+
         public ObservableCollection<NavLink> NavLinks { get; set; }
         public ObservableCollection<GameItem> Games { get; set; }
 
@@ -44,10 +52,42 @@ namespace Cracked_Launcher.Library
         {
             // Handle navigation item clicks
         }
-
-        private void AddGameButton_Click(object sender, RoutedEventArgs e)
+        
+        private async void AddGameButton_Click(object sender, RoutedEventArgs e)
         {
-            // Handle adding a new game
+            try
+            {
+                string filter = "All Files\0*.*\0Executable Files\0*.EXE\0Torrent Files\0*.TORRENT\0";
+                IntPtr hwndOwner = WindowNative.GetWindowHandle(Window.Current);
+                IntPtr resultPtr = OpenFileDialog(hwndOwner, filter);
+
+                if (resultPtr != IntPtr.Zero)
+                {
+                    string fileName = Marshal.PtrToStringAnsi(resultPtr);
+                    await ShowContentDialog($"Selected file: {fileName}");
+                }
+                else
+                {
+                    await ShowContentDialog("No file selected.");
+                }
+            }
+            catch (Exception ex)
+            {
+                await ShowContentDialog($"Error: {ex.Message}");
+            }
+
+        }
+        private async System.Threading.Tasks.Task ShowContentDialog(string message)
+        {
+            ContentDialog dialog = new ContentDialog
+            {
+                Title = "File Selection",
+                Content = message,
+                CloseButtonText = "OK",
+                XamlRoot = this.XamlRoot
+            };
+
+            await dialog.ShowAsync();
         }
     }
 }

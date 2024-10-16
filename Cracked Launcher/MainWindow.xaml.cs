@@ -1,4 +1,5 @@
 using Cracked_Launcher.Library;
+using Cracked_Launcher.MenuItems;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
@@ -41,6 +42,10 @@ namespace Cracked_Launcher
                 else if (tag == "Library")
                 {
                     contentFrame.Navigate(typeof(LibraryPage));
+                }
+                else if (tag == "DownloadPage3")
+                {
+                    contentFrame.Navigate(typeof(DownloadPage3));
                 }
             }
         }
