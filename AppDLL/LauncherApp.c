@@ -9,7 +9,7 @@ _declspec(dllexport) char* openFileDiag(HWND hwndOwner, const char* filter, cons
     OPENFILENAME ofn;
     ZeroMemory(&ofn, sizeof(ofn));
     ofn.lStructSize = sizeof(ofn);
-    ofn.hwndOwner = hwndOwner; // използване на handle на родителски прозорец
+    ofn.hwndOwner = hwndOwner;
     ofn.lpstrFilter = filter;
     ofn.lpstrFile = fileName;
     ofn.nMaxFile = MAX_PATH;
@@ -23,4 +23,3 @@ _declspec(dllexport) char* openFileDiag(HWND hwndOwner, const char* filter, cons
         return NULL;
     }
 }
-

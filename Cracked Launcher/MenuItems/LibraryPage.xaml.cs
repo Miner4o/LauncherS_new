@@ -75,7 +75,7 @@ namespace Cracked_Launcher.Library
                 }
 
                 // Извикване на OpenFileDialog от DLL
-                string filter = "All Files\0*.*\0Executable Files\0*.EXE\0Torrent Files\0*.TORRENT\0";
+                string filter = "All Files\0*.*\0Executable Files\0*.EXE";
                 string tittle = "Select a game:";
                 IntPtr resultPtr = openFileDiag(hwndOwner, filter, tittle);
 

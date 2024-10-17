@@ -36,7 +36,7 @@ namespace Cracked_Launcher.MenuItems
         private async void AddTorrent_Click (object sender, RoutedEventArgs e)
         {
             IntPtr hwndOwner = WindowNative.GetWindowHandle(App.MainWindow);
-            string filter = "All Files\0*.*\0Executable Files\0*.EXE\0Torrent Files\0*.TORRENT\0";
+            string filter = "Torrent Files\0*.TORRENT\0";
             string tittle = "Select a torrent:";
             IntPtr resultPtr = openFileDiag(hwndOwner, filter, tittle);
             if (resultPtr != IntPtr.Zero)
