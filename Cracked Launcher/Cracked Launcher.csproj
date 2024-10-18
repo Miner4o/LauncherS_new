@@ -11,9 +11,11 @@
     <PublishProfile>win-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="HomePage1.xaml" />
+    <None Remove="MenuItems\DownloadPage3.xaml" />
     <None Remove="MenuItems\LibraryPage.xaml" />
     <None Remove="PageItems\DetailPage.xaml" />
     <None Remove="PageItems\GameDetailPage.xaml" />
@@ -85,5 +87,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Remove="MenuItems\LibraryPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MenuItems\DownloadPage3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 </Project>

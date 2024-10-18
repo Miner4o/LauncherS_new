@@ -16,12 +16,12 @@
             <TextBlock x:ConnectionId='5' x:Name="AppTitle" VerticalAlignment="Top" Margin="10,8,0,0" />
         </Border>
 
-        <NavigationView x:ConnectionId='3' x:Name="nvSample" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsBackEnabled="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent"                                   >
+        <NavigationView x:ConnectionId='3' x:Name="nvSample" PaneDisplayMode="LeftCompact" IsBackButtonVisible="Collapsed" IsBackEnabled="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent"                                   >
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Content="Dashboard" Tag="HomePage1" />
                 <NavigationViewItem Icon="Play" Content="Recent Games" Tag="Recents1" />
                 <NavigationViewItem Icon="Library" Content="Library" Tag="Library" />
-                <NavigationViewItem Icon="Download" Content="Downloads" Tag="SamplePage4" />
+                <NavigationViewItem Icon="Download" Content="Downloads" Tag="DownloadPage3" />
             </NavigationView.MenuItems>
             <Frame x:ConnectionId='4' x:Name="contentFrame" Background="Transparent"/>
         </NavigationView>

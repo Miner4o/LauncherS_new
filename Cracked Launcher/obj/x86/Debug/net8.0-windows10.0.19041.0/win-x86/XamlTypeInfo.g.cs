@@ -224,7 +224,7 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[61];
+            _typeNameTable = new string[65];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -260,34 +260,38 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
             _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.Control";
             _typeNameTable[33] = "Cracked_Launcher.MainWindow";
             _typeNameTable[34] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[35] = "Cracked_Launcher.HomePage1";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[38] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.NewsItem>";
-            _typeNameTable[39] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.NewsItem>";
-            _typeNameTable[40] = "Cracked_Launcher.NewsItem";
-            _typeNameTable[41] = "System.DateTime";
-            _typeNameTable[42] = "Cracked_Launcher.Library.LibraryPage";
-            _typeNameTable[43] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.NavLink>";
-            _typeNameTable[44] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.NavLink>";
-            _typeNameTable[45] = "Cracked_Launcher.Library.NavLink";
-            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.Symbol";
-            _typeNameTable[47] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.GameItem>";
-            _typeNameTable[48] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.GameItem>";
-            _typeNameTable[49] = "Cracked_Launcher.Library.GameItem";
-            _typeNameTable[50] = "Cracked_Launcher.Recents1";
-            _typeNameTable[51] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.GameItem>";
-            _typeNameTable[52] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.GameItem>";
-            _typeNameTable[53] = "Cracked_Launcher.GameItem";
-            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.RadioButtons";
-            _typeNameTable[55] = "Int32";
-            _typeNameTable[56] = "Cracked_Launcher.Settings";
-            _typeNameTable[57] = "Cracked_Launcher.DetailPage";
-            _typeNameTable[58] = "Cracked_Launcher.GameDetailPage";
-            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[60] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.ProgressBar";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.Primitives.RangeBase";
+            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings";
+            _typeNameTable[38] = "Cracked_Launcher.MenuItems.DownloadPage3";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[41] = "Cracked_Launcher.HomePage1";
+            _typeNameTable[42] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.NewsItem>";
+            _typeNameTable[43] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.NewsItem>";
+            _typeNameTable[44] = "Cracked_Launcher.NewsItem";
+            _typeNameTable[45] = "System.DateTime";
+            _typeNameTable[46] = "Cracked_Launcher.Library.LibraryPage";
+            _typeNameTable[47] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.NavLink>";
+            _typeNameTable[48] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.NavLink>";
+            _typeNameTable[49] = "Cracked_Launcher.Library.NavLink";
+            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.Symbol";
+            _typeNameTable[51] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.GameItem>";
+            _typeNameTable[52] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.GameItem>";
+            _typeNameTable[53] = "Cracked_Launcher.Library.GameItem";
+            _typeNameTable[54] = "Cracked_Launcher.Recents1";
+            _typeNameTable[55] = "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.GameItem>";
+            _typeNameTable[56] = "System.Collections.ObjectModel.Collection`1<Cracked_Launcher.GameItem>";
+            _typeNameTable[57] = "Cracked_Launcher.GameItem";
+            _typeNameTable[58] = "Microsoft.UI.Xaml.Controls.RadioButtons";
+            _typeNameTable[59] = "Int32";
+            _typeNameTable[60] = "Cracked_Launcher.Settings";
+            _typeNameTable[61] = "Cracked_Launcher.DetailPage";
+            _typeNameTable[62] = "Cracked_Launcher.GameDetailPage";
+            _typeNameTable[63] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[64] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
 
-            _typeTable = new global::System.Type[61];
+            _typeTable = new global::System.Type[65];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -323,32 +327,36 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
             _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
             _typeTable[33] = typeof(global::Cracked_Launcher.MainWindow);
             _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[35] = typeof(global::Cracked_Launcher.HomePage1);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[38] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.NewsItem>);
-            _typeTable[39] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.NewsItem>);
-            _typeTable[40] = typeof(global::Cracked_Launcher.NewsItem);
-            _typeTable[41] = typeof(global::System.DateTime);
-            _typeTable[42] = typeof(global::Cracked_Launcher.Library.LibraryPage);
-            _typeTable[43] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.NavLink>);
-            _typeTable[44] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.NavLink>);
-            _typeTable[45] = typeof(global::Cracked_Launcher.Library.NavLink);
-            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.Symbol);
-            _typeTable[47] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.GameItem>);
-            _typeTable[48] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.GameItem>);
-            _typeTable[49] = typeof(global::Cracked_Launcher.Library.GameItem);
-            _typeTable[50] = typeof(global::Cracked_Launcher.Recents1);
-            _typeTable[51] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>);
-            _typeTable[52] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.GameItem>);
-            _typeTable[53] = typeof(global::Cracked_Launcher.GameItem);
-            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.RadioButtons);
-            _typeTable[55] = typeof(global::System.Int32);
-            _typeTable[56] = typeof(global::Cracked_Launcher.Settings);
-            _typeTable[57] = typeof(global::Cracked_Launcher.DetailPage);
-            _typeTable[58] = typeof(global::Cracked_Launcher.GameDetailPage);
-            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[60] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressBar);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.RangeBase);
+            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings);
+            _typeTable[38] = typeof(global::Cracked_Launcher.MenuItems.DownloadPage3);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[41] = typeof(global::Cracked_Launcher.HomePage1);
+            _typeTable[42] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.NewsItem>);
+            _typeTable[43] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.NewsItem>);
+            _typeTable[44] = typeof(global::Cracked_Launcher.NewsItem);
+            _typeTable[45] = typeof(global::System.DateTime);
+            _typeTable[46] = typeof(global::Cracked_Launcher.Library.LibraryPage);
+            _typeTable[47] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.NavLink>);
+            _typeTable[48] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.NavLink>);
+            _typeTable[49] = typeof(global::Cracked_Launcher.Library.NavLink);
+            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.Symbol);
+            _typeTable[51] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.GameItem>);
+            _typeTable[52] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.GameItem>);
+            _typeTable[53] = typeof(global::Cracked_Launcher.Library.GameItem);
+            _typeTable[54] = typeof(global::Cracked_Launcher.Recents1);
+            _typeTable[55] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>);
+            _typeTable[56] = typeof(global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.GameItem>);
+            _typeTable[57] = typeof(global::Cracked_Launcher.GameItem);
+            _typeTable[58] = typeof(global::Microsoft.UI.Xaml.Controls.RadioButtons);
+            _typeTable[59] = typeof(global::System.Int32);
+            _typeTable[60] = typeof(global::Cracked_Launcher.Settings);
+            _typeTable[61] = typeof(global::Cracked_Launcher.DetailPage);
+            _typeTable[62] = typeof(global::Cracked_Launcher.GameDetailPage);
+            _typeTable[63] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[64] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -390,26 +398,28 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
         private object Activate_28_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
         private object Activate_31_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
         private object Activate_33_MainWindow() { return new global::Cracked_Launcher.MainWindow(); }
-        private object Activate_35_HomePage1() { return new global::Cracked_Launcher.HomePage1(); }
-        private object Activate_38_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.NewsItem>(); }
-        private object Activate_39_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.NewsItem>(); }
-        private object Activate_40_NewsItem() { return new global::Cracked_Launcher.NewsItem(); }
-        private object Activate_42_LibraryPage() { return new global::Cracked_Launcher.Library.LibraryPage(); }
-        private object Activate_43_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.NavLink>(); }
-        private object Activate_44_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.NavLink>(); }
-        private object Activate_45_NavLink() { return new global::Cracked_Launcher.Library.NavLink(); }
-        private object Activate_47_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.GameItem>(); }
-        private object Activate_48_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.GameItem>(); }
-        private object Activate_49_GameItem() { return new global::Cracked_Launcher.Library.GameItem(); }
-        private object Activate_50_Recents1() { return new global::Cracked_Launcher.Recents1(); }
-        private object Activate_51_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>(); }
-        private object Activate_52_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.GameItem>(); }
-        private object Activate_53_GameItem() { return new global::Cracked_Launcher.GameItem(); }
-        private object Activate_54_RadioButtons() { return new global::Microsoft.UI.Xaml.Controls.RadioButtons(); }
-        private object Activate_56_Settings() { return new global::Cracked_Launcher.Settings(); }
-        private object Activate_57_DetailPage() { return new global::Cracked_Launcher.DetailPage(); }
-        private object Activate_58_GameDetailPage() { return new global::Cracked_Launcher.GameDetailPage(); }
-        private object Activate_59_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_35_ProgressBar() { return new global::Microsoft.UI.Xaml.Controls.ProgressBar(); }
+        private object Activate_38_DownloadPage3() { return new global::Cracked_Launcher.MenuItems.DownloadPage3(); }
+        private object Activate_41_HomePage1() { return new global::Cracked_Launcher.HomePage1(); }
+        private object Activate_42_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.NewsItem>(); }
+        private object Activate_43_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.NewsItem>(); }
+        private object Activate_44_NewsItem() { return new global::Cracked_Launcher.NewsItem(); }
+        private object Activate_46_LibraryPage() { return new global::Cracked_Launcher.Library.LibraryPage(); }
+        private object Activate_47_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.NavLink>(); }
+        private object Activate_48_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.NavLink>(); }
+        private object Activate_49_NavLink() { return new global::Cracked_Launcher.Library.NavLink(); }
+        private object Activate_51_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.GameItem>(); }
+        private object Activate_52_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.Library.GameItem>(); }
+        private object Activate_53_GameItem() { return new global::Cracked_Launcher.Library.GameItem(); }
+        private object Activate_54_Recents1() { return new global::Cracked_Launcher.Recents1(); }
+        private object Activate_55_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>(); }
+        private object Activate_56_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Cracked_Launcher.GameItem>(); }
+        private object Activate_57_GameItem() { return new global::Cracked_Launcher.GameItem(); }
+        private object Activate_58_RadioButtons() { return new global::Microsoft.UI.Xaml.Controls.RadioButtons(); }
+        private object Activate_60_Settings() { return new global::Cracked_Launcher.Settings(); }
+        private object Activate_61_DetailPage() { return new global::Cracked_Launcher.DetailPage(); }
+        private object Activate_62_GameDetailPage() { return new global::Cracked_Launcher.GameDetailPage(); }
+        private object Activate_63_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -423,55 +433,55 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_38_ObservableCollection(object instance, object item)
+        private void VectorAdd_42_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.NewsItem>)instance;
             var newItem = (global::Cracked_Launcher.NewsItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_39_Collection(object instance, object item)
+        private void VectorAdd_43_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.NewsItem>)instance;
             var newItem = (global::Cracked_Launcher.NewsItem)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_43_ObservableCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.NavLink>)instance;
-            var newItem = (global::Cracked_Launcher.Library.NavLink)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_44_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.NavLink>)instance;
-            var newItem = (global::Cracked_Launcher.Library.NavLink)item;
             collection.Add(newItem);
         }
         private void VectorAdd_47_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.GameItem>)instance;
-            var newItem = (global::Cracked_Launcher.Library.GameItem)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.NavLink>)instance;
+            var newItem = (global::Cracked_Launcher.Library.NavLink)item;
             collection.Add(newItem);
         }
         private void VectorAdd_48_Collection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.GameItem>)instance;
-            var newItem = (global::Cracked_Launcher.Library.GameItem)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.NavLink>)instance;
+            var newItem = (global::Cracked_Launcher.Library.NavLink)item;
             collection.Add(newItem);
         }
         private void VectorAdd_51_ObservableCollection(object instance, object item)
         {
-            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.GameItem>)instance;
-            var newItem = (global::Cracked_Launcher.GameItem)item;
+            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.GameItem>)instance;
+            var newItem = (global::Cracked_Launcher.Library.GameItem)item;
             collection.Add(newItem);
         }
         private void VectorAdd_52_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.Library.GameItem>)instance;
+            var newItem = (global::Cracked_Launcher.Library.GameItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_55_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.GameItem>)instance;
             var newItem = (global::Cracked_Launcher.GameItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_60_IList(object instance, object item)
+        private void VectorAdd_56_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Cracked_Launcher.GameItem>)instance;
+            var newItem = (global::Cracked_Launcher.GameItem)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_64_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -726,39 +736,66 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  Cracked_Launcher.HomePage1
+            case 35:   //  Microsoft.UI.Xaml.Controls.ProgressBar
+                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Primitives.RangeBase"));
+                userType.Activator = Activate_35_ProgressBar;
+                userType.AddMemberName("IsIndeterminate");
+                userType.AddMemberName("ShowError");
+                userType.AddMemberName("ShowPaused");
+                userType.AddMemberName("TemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 36:   //  Microsoft.UI.Xaml.Controls.Primitives.RangeBase
+                xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 37:   //  Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings
+                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 38:   //  Cracked_Launcher.MenuItems.DownloadPage3
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_35_HomePage1;
+                userType.Activator = Activate_38_DownloadPage3;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 39:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 40:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 41:   //  Cracked_Launcher.HomePage1
+                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_41_HomePage1;
                 userType.AddMemberName("NewsItems");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.Controls.Page
-                xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 37:   //  Microsoft.UI.Xaml.Controls.UserControl
-                xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 38:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.NewsItem>
+            case 42:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.NewsItem>
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Cracked_Launcher.NewsItem>"));
-                userType.CollectionAdd = VectorAdd_38_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_42_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 39:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.NewsItem>
+            case 43:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.NewsItem>
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_39_Collection;
-                userType.CollectionAdd = VectorAdd_39_Collection;
+                userType.Activator = Activate_43_Collection;
+                userType.CollectionAdd = VectorAdd_43_Collection;
                 xamlType = userType;
                 break;
 
-            case 40:   //  Cracked_Launcher.NewsItem
+            case 44:   //  Cracked_Launcher.NewsItem
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_40_NewsItem;
+                userType.Activator = Activate_44_NewsItem;
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Description");
                 userType.AddMemberName("Date");
@@ -767,65 +804,65 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  System.DateTime
+            case 45:   //  System.DateTime
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 42:   //  Cracked_Launcher.Library.LibraryPage
+            case 46:   //  Cracked_Launcher.Library.LibraryPage
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_LibraryPage;
+                userType.Activator = Activate_46_LibraryPage;
                 userType.AddMemberName("NavLinks");
                 userType.AddMemberName("Games");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 43:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.NavLink>
+            case 47:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.NavLink>
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.NavLink>"));
-                userType.CollectionAdd = VectorAdd_43_ObservableCollection;
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 44:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.NavLink>
-                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_44_Collection;
-                userType.CollectionAdd = VectorAdd_44_Collection;
-                xamlType = userType;
-                break;
-
-            case 45:   //  Cracked_Launcher.Library.NavLink
-                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_45_NavLink;
-                userType.AddMemberName("Label");
-                userType.AddMemberName("Symbol");
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 46:   //  Microsoft.UI.Xaml.Controls.Symbol
-                xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 47:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.GameItem>
-                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.GameItem>"));
                 userType.CollectionAdd = VectorAdd_47_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 48:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.GameItem>
+            case 48:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.NavLink>
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_48_Collection;
                 userType.CollectionAdd = VectorAdd_48_Collection;
                 xamlType = userType;
                 break;
 
-            case 49:   //  Cracked_Launcher.Library.GameItem
+            case 49:   //  Cracked_Launcher.Library.NavLink
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_49_GameItem;
+                userType.Activator = Activate_49_NavLink;
+                userType.AddMemberName("Label");
+                userType.AddMemberName("Symbol");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 50:   //  Microsoft.UI.Xaml.Controls.Symbol
+                xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 51:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.GameItem>
+                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.GameItem>"));
+                userType.CollectionAdd = VectorAdd_51_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 52:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.Library.GameItem>
+                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_52_Collection;
+                userType.CollectionAdd = VectorAdd_52_Collection;
+                xamlType = userType;
+                break;
+
+            case 53:   //  Cracked_Launcher.Library.GameItem
+                userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_53_GameItem;
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Description");
                 userType.AddMemberName("Image");
@@ -835,31 +872,31 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 50:   //  Cracked_Launcher.Recents1
+            case 54:   //  Cracked_Launcher.Recents1
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_50_Recents1;
+                userType.Activator = Activate_54_Recents1;
                 userType.AddMemberName("GameItems");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 51:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.GameItem>
+            case 55:   //  System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.GameItem>
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Cracked_Launcher.GameItem>"));
-                userType.CollectionAdd = VectorAdd_51_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_55_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 52:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.GameItem>
+            case 56:   //  System.Collections.ObjectModel.Collection`1<Cracked_Launcher.GameItem>
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_52_Collection;
-                userType.CollectionAdd = VectorAdd_52_Collection;
+                userType.Activator = Activate_56_Collection;
+                userType.CollectionAdd = VectorAdd_56_Collection;
                 xamlType = userType;
                 break;
 
-            case 53:   //  Cracked_Launcher.GameItem
+            case 57:   //  Cracked_Launcher.GameItem
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_53_GameItem;
+                userType.Activator = Activate_57_GameItem;
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Rating");
                 userType.AddMemberName("Status");
@@ -868,9 +905,9 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 54:   //  Microsoft.UI.Xaml.Controls.RadioButtons
+            case 58:   //  Microsoft.UI.Xaml.Controls.RadioButtons
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_54_RadioButtons;
+                userType.Activator = Activate_58_RadioButtons;
                 userType.SetContentPropertyName("Microsoft.UI.Xaml.Controls.RadioButtons.Items");
                 userType.AddMemberName("Items");
                 userType.AddMemberName("Header");
@@ -883,35 +920,35 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 55:   //  Int32
+            case 59:   //  Int32
                 xamlType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 56:   //  Cracked_Launcher.Settings
+            case 60:   //  Cracked_Launcher.Settings
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_56_Settings;
+                userType.Activator = Activate_60_Settings;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  Cracked_Launcher.DetailPage
+            case 61:   //  Cracked_Launcher.DetailPage
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_57_DetailPage;
+                userType.Activator = Activate_61_DetailPage;
                 userType.AddMemberName("DetailedObject");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 58:   //  Cracked_Launcher.GameDetailPage
+            case 62:   //  Cracked_Launcher.GameDetailPage
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_58_GameDetailPage;
+                userType.Activator = Activate_62_GameDetailPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 63:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_59_TreeViewNode;
+                userType.Activator = Activate_63_TreeViewNode;
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -923,9 +960,9 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 60:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 64:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_60_IList;
+                userType.CollectionAdd = VectorAdd_64_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
@@ -1443,327 +1480,362 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase)instance;
             that.IsSelected = (global::System.Boolean)Value;
         }
-        private object get_49_HomePage1_NewsItems(object instance)
+        private object get_49_ProgressBar_IsIndeterminate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.IsIndeterminate;
+        }
+        private void set_49_ProgressBar_IsIndeterminate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            that.IsIndeterminate = (global::System.Boolean)Value;
+        }
+        private object get_50_ProgressBar_ShowError(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.ShowError;
+        }
+        private void set_50_ProgressBar_ShowError(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            that.ShowError = (global::System.Boolean)Value;
+        }
+        private object get_51_ProgressBar_ShowPaused(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.ShowPaused;
+        }
+        private void set_51_ProgressBar_ShowPaused(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            that.ShowPaused = (global::System.Boolean)Value;
+        }
+        private object get_52_ProgressBar_TemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.TemplateSettings;
+        }
+        private object get_53_HomePage1_NewsItems(object instance)
         {
             var that = (global::Cracked_Launcher.HomePage1)instance;
             return that.NewsItems;
         }
-        private void set_49_HomePage1_NewsItems(object instance, object Value)
+        private void set_53_HomePage1_NewsItems(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.HomePage1)instance;
             that.NewsItems = (global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.NewsItem>)Value;
         }
-        private object get_50_NewsItem_Title(object instance)
+        private object get_54_NewsItem_Title(object instance)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             return that.Title;
         }
-        private void set_50_NewsItem_Title(object instance, object Value)
+        private void set_54_NewsItem_Title(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             that.Title = (global::System.String)Value;
         }
-        private object get_51_NewsItem_Description(object instance)
+        private object get_55_NewsItem_Description(object instance)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             return that.Description;
         }
-        private void set_51_NewsItem_Description(object instance, object Value)
+        private void set_55_NewsItem_Description(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             that.Description = (global::System.String)Value;
         }
-        private object get_52_NewsItem_Date(object instance)
+        private object get_56_NewsItem_Date(object instance)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             return that.Date;
         }
-        private void set_52_NewsItem_Date(object instance, object Value)
+        private void set_56_NewsItem_Date(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             that.Date = (global::System.DateTime)Value;
         }
-        private object get_53_NewsItem_Image(object instance)
+        private object get_57_NewsItem_Image(object instance)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             return that.Image;
         }
-        private void set_53_NewsItem_Image(object instance, object Value)
+        private void set_57_NewsItem_Image(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.NewsItem)instance;
             that.Image = (global::System.String)Value;
         }
-        private object get_54_LibraryPage_NavLinks(object instance)
+        private object get_58_LibraryPage_NavLinks(object instance)
         {
             var that = (global::Cracked_Launcher.Library.LibraryPage)instance;
             return that.NavLinks;
         }
-        private void set_54_LibraryPage_NavLinks(object instance, object Value)
+        private void set_58_LibraryPage_NavLinks(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Library.LibraryPage)instance;
             that.NavLinks = (global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.NavLink>)Value;
         }
-        private object get_55_NavLink_Label(object instance)
+        private object get_59_NavLink_Label(object instance)
         {
             var that = (global::Cracked_Launcher.Library.NavLink)instance;
             return that.Label;
         }
-        private void set_55_NavLink_Label(object instance, object Value)
+        private void set_59_NavLink_Label(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Library.NavLink)instance;
             that.Label = (global::System.String)Value;
         }
-        private object get_56_NavLink_Symbol(object instance)
+        private object get_60_NavLink_Symbol(object instance)
         {
             var that = (global::Cracked_Launcher.Library.NavLink)instance;
             return that.Symbol;
         }
-        private void set_56_NavLink_Symbol(object instance, object Value)
+        private void set_60_NavLink_Symbol(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Library.NavLink)instance;
             that.Symbol = (global::Microsoft.UI.Xaml.Controls.Symbol)Value;
         }
-        private object get_57_LibraryPage_Games(object instance)
+        private object get_61_LibraryPage_Games(object instance)
         {
             var that = (global::Cracked_Launcher.Library.LibraryPage)instance;
             return that.Games;
         }
-        private void set_57_LibraryPage_Games(object instance, object Value)
+        private void set_61_LibraryPage_Games(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Library.LibraryPage)instance;
             that.Games = (global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.Library.GameItem>)Value;
         }
-        private object get_58_GameItem_Title(object instance)
+        private object get_62_GameItem_Title(object instance)
         {
             var that = (global::Cracked_Launcher.Library.GameItem)instance;
             return that.Title;
         }
-        private void set_58_GameItem_Title(object instance, object Value)
+        private void set_62_GameItem_Title(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Library.GameItem)instance;
             that.Title = (global::System.String)Value;
         }
-        private object get_59_GameItem_Description(object instance)
+        private object get_63_GameItem_Description(object instance)
         {
             var that = (global::Cracked_Launcher.Library.GameItem)instance;
             return that.Description;
         }
-        private void set_59_GameItem_Description(object instance, object Value)
+        private void set_63_GameItem_Description(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Library.GameItem)instance;
             that.Description = (global::System.String)Value;
         }
-        private object get_60_GameItem_Image(object instance)
+        private object get_64_GameItem_Image(object instance)
         {
             var that = (global::Cracked_Launcher.Library.GameItem)instance;
             return that.Image;
         }
-        private void set_60_GameItem_Image(object instance, object Value)
+        private void set_64_GameItem_Image(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.Library.GameItem)instance;
             that.Image = (global::System.String)Value;
         }
-        private object get_61_GameItem_Rating(object instance)
-        {
-            var that = (global::Cracked_Launcher.Library.GameItem)instance;
-            return that.Rating;
-        }
-        private void set_61_GameItem_Rating(object instance, object Value)
-        {
-            var that = (global::Cracked_Launcher.Library.GameItem)instance;
-            that.Rating = (global::System.Double)Value;
-        }
-        private object get_62_GameItem_Staus(object instance)
-        {
-            var that = (global::Cracked_Launcher.Library.GameItem)instance;
-            return that.Staus;
-        }
-        private void set_62_GameItem_Staus(object instance, object Value)
-        {
-            var that = (global::Cracked_Launcher.Library.GameItem)instance;
-            that.Staus = (global::System.String)Value;
-        }
-        private object get_63_Recents1_GameItems(object instance)
-        {
-            var that = (global::Cracked_Launcher.Recents1)instance;
-            return that.GameItems;
-        }
-        private void set_63_Recents1_GameItems(object instance, object Value)
-        {
-            var that = (global::Cracked_Launcher.Recents1)instance;
-            that.GameItems = (global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>)Value;
-        }
-        private object get_64_GameItem_Title(object instance)
-        {
-            var that = (global::Cracked_Launcher.GameItem)instance;
-            return that.Title;
-        }
-        private void set_64_GameItem_Title(object instance, object Value)
-        {
-            var that = (global::Cracked_Launcher.GameItem)instance;
-            that.Title = (global::System.String)Value;
-        }
         private object get_65_GameItem_Rating(object instance)
         {
-            var that = (global::Cracked_Launcher.GameItem)instance;
+            var that = (global::Cracked_Launcher.Library.GameItem)instance;
             return that.Rating;
         }
         private void set_65_GameItem_Rating(object instance, object Value)
         {
+            var that = (global::Cracked_Launcher.Library.GameItem)instance;
+            that.Rating = (global::System.Double)Value;
+        }
+        private object get_66_GameItem_Staus(object instance)
+        {
+            var that = (global::Cracked_Launcher.Library.GameItem)instance;
+            return that.Staus;
+        }
+        private void set_66_GameItem_Staus(object instance, object Value)
+        {
+            var that = (global::Cracked_Launcher.Library.GameItem)instance;
+            that.Staus = (global::System.String)Value;
+        }
+        private object get_67_Recents1_GameItems(object instance)
+        {
+            var that = (global::Cracked_Launcher.Recents1)instance;
+            return that.GameItems;
+        }
+        private void set_67_Recents1_GameItems(object instance, object Value)
+        {
+            var that = (global::Cracked_Launcher.Recents1)instance;
+            that.GameItems = (global::System.Collections.ObjectModel.ObservableCollection<global::Cracked_Launcher.GameItem>)Value;
+        }
+        private object get_68_GameItem_Title(object instance)
+        {
+            var that = (global::Cracked_Launcher.GameItem)instance;
+            return that.Title;
+        }
+        private void set_68_GameItem_Title(object instance, object Value)
+        {
+            var that = (global::Cracked_Launcher.GameItem)instance;
+            that.Title = (global::System.String)Value;
+        }
+        private object get_69_GameItem_Rating(object instance)
+        {
+            var that = (global::Cracked_Launcher.GameItem)instance;
+            return that.Rating;
+        }
+        private void set_69_GameItem_Rating(object instance, object Value)
+        {
             var that = (global::Cracked_Launcher.GameItem)instance;
             that.Rating = (global::System.String)Value;
         }
-        private object get_66_GameItem_Status(object instance)
+        private object get_70_GameItem_Status(object instance)
         {
             var that = (global::Cracked_Launcher.GameItem)instance;
             return that.Status;
         }
-        private void set_66_GameItem_Status(object instance, object Value)
+        private void set_70_GameItem_Status(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.GameItem)instance;
             that.Status = (global::System.String)Value;
         }
-        private object get_67_GameItem_Image(object instance)
+        private object get_71_GameItem_Image(object instance)
         {
             var that = (global::Cracked_Launcher.GameItem)instance;
             return that.Image;
         }
-        private void set_67_GameItem_Image(object instance, object Value)
+        private void set_71_GameItem_Image(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.GameItem)instance;
             that.Image = (global::System.String)Value;
         }
-        private object get_68_RadioButtons_Items(object instance)
+        private object get_72_RadioButtons_Items(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.Items;
         }
-        private object get_69_RadioButtons_Header(object instance)
+        private object get_73_RadioButtons_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.Header;
         }
-        private void set_69_RadioButtons_Header(object instance, object Value)
+        private void set_73_RadioButtons_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.Header = (global::System.Object)Value;
         }
-        private object get_70_RadioButtons_HeaderTemplate(object instance)
+        private object get_74_RadioButtons_HeaderTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.HeaderTemplate;
         }
-        private void set_70_RadioButtons_HeaderTemplate(object instance, object Value)
+        private void set_74_RadioButtons_HeaderTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
-        private object get_71_RadioButtons_ItemTemplate(object instance)
+        private object get_75_RadioButtons_ItemTemplate(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.ItemTemplate;
         }
-        private void set_71_RadioButtons_ItemTemplate(object instance, object Value)
+        private void set_75_RadioButtons_ItemTemplate(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.ItemTemplate = (global::System.Object)Value;
         }
-        private object get_72_RadioButtons_ItemsSource(object instance)
+        private object get_76_RadioButtons_ItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.ItemsSource;
         }
-        private void set_72_RadioButtons_ItemsSource(object instance, object Value)
+        private void set_76_RadioButtons_ItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.ItemsSource = (global::System.Object)Value;
         }
-        private object get_73_RadioButtons_MaxColumns(object instance)
+        private object get_77_RadioButtons_MaxColumns(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.MaxColumns;
         }
-        private void set_73_RadioButtons_MaxColumns(object instance, object Value)
+        private void set_77_RadioButtons_MaxColumns(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.MaxColumns = (global::System.Int32)Value;
         }
-        private object get_74_RadioButtons_SelectedIndex(object instance)
+        private object get_78_RadioButtons_SelectedIndex(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.SelectedIndex;
         }
-        private void set_74_RadioButtons_SelectedIndex(object instance, object Value)
+        private void set_78_RadioButtons_SelectedIndex(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.SelectedIndex = (global::System.Int32)Value;
         }
-        private object get_75_RadioButtons_SelectedItem(object instance)
+        private object get_79_RadioButtons_SelectedItem(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             return that.SelectedItem;
         }
-        private void set_75_RadioButtons_SelectedItem(object instance, object Value)
+        private void set_79_RadioButtons_SelectedItem(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.RadioButtons)instance;
             that.SelectedItem = (global::System.Object)Value;
         }
-        private object get_76_DetailPage_DetailedObject(object instance)
+        private object get_80_DetailPage_DetailedObject(object instance)
         {
             var that = (global::Cracked_Launcher.DetailPage)instance;
             return that.DetailedObject;
         }
-        private void set_76_DetailPage_DetailedObject(object instance, object Value)
+        private void set_80_DetailPage_DetailedObject(object instance, object Value)
         {
             var that = (global::Cracked_Launcher.DetailPage)instance;
             that.DetailedObject = (global::Cracked_Launcher.NewsItem)Value;
         }
-        private object get_77_TreeViewNode_Children(object instance)
+        private object get_81_TreeViewNode_Children(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
-        private object get_78_TreeViewNode_Content(object instance)
+        private object get_82_TreeViewNode_Content(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
-        private void set_78_TreeViewNode_Content(object instance, object Value)
+        private void set_82_TreeViewNode_Content(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
-        private object get_79_TreeViewNode_Depth(object instance)
+        private object get_83_TreeViewNode_Depth(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
-        private object get_80_TreeViewNode_HasChildren(object instance)
+        private object get_84_TreeViewNode_HasChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
-        private object get_81_TreeViewNode_HasUnrealizedChildren(object instance)
+        private object get_85_TreeViewNode_HasUnrealizedChildren(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
-        private void set_81_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+        private void set_85_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
-        private object get_82_TreeViewNode_IsExpanded(object instance)
+        private object get_86_TreeViewNode_IsExpanded(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
-        private void set_82_TreeViewNode_IsExpanded(object instance, object Value)
+        private void set_86_TreeViewNode_IsExpanded(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
-        private object get_83_TreeViewNode_Parent(object instance)
+        private object get_87_TreeViewNode_Parent(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -2119,226 +2191,253 @@ namespace Cracked_Launcher.Cracked_Launcher_XamlTypeInfo
                 xamlMember.Getter = get_48_NavigationViewItemBase_IsSelected;
                 xamlMember.Setter = set_48_NavigationViewItemBase_IsSelected;
                 break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.IsIndeterminate":
+                userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "IsIndeterminate", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_ProgressBar_IsIndeterminate;
+                xamlMember.Setter = set_49_ProgressBar_IsIndeterminate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.ShowError":
+                userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "ShowError", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_ProgressBar_ShowError;
+                xamlMember.Setter = set_50_ProgressBar_ShowError;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.ShowPaused":
+                userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "ShowPaused", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_51_ProgressBar_ShowPaused;
+                xamlMember.Setter = set_51_ProgressBar_ShowPaused;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.TemplateSettings":
+                userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings");
+                xamlMember.Getter = get_52_ProgressBar_TemplateSettings;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Cracked_Launcher.HomePage1.NewsItems":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.HomePage1");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "NewsItems", "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.NewsItem>");
-                xamlMember.Getter = get_49_HomePage1_NewsItems;
-                xamlMember.Setter = set_49_HomePage1_NewsItems;
+                xamlMember.Getter = get_53_HomePage1_NewsItems;
+                xamlMember.Setter = set_53_HomePage1_NewsItems;
                 break;
             case "Cracked_Launcher.NewsItem.Title":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.NewsItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Title", "String");
-                xamlMember.Getter = get_50_NewsItem_Title;
-                xamlMember.Setter = set_50_NewsItem_Title;
+                xamlMember.Getter = get_54_NewsItem_Title;
+                xamlMember.Setter = set_54_NewsItem_Title;
                 break;
             case "Cracked_Launcher.NewsItem.Description":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.NewsItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_51_NewsItem_Description;
-                xamlMember.Setter = set_51_NewsItem_Description;
+                xamlMember.Getter = get_55_NewsItem_Description;
+                xamlMember.Setter = set_55_NewsItem_Description;
                 break;
             case "Cracked_Launcher.NewsItem.Date":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.NewsItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Date", "System.DateTime");
-                xamlMember.Getter = get_52_NewsItem_Date;
-                xamlMember.Setter = set_52_NewsItem_Date;
+                xamlMember.Getter = get_56_NewsItem_Date;
+                xamlMember.Setter = set_56_NewsItem_Date;
                 break;
             case "Cracked_Launcher.NewsItem.Image":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.NewsItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Image", "String");
-                xamlMember.Getter = get_53_NewsItem_Image;
-                xamlMember.Setter = set_53_NewsItem_Image;
+                xamlMember.Getter = get_57_NewsItem_Image;
+                xamlMember.Setter = set_57_NewsItem_Image;
                 break;
             case "Cracked_Launcher.Library.LibraryPage.NavLinks":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.LibraryPage");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "NavLinks", "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.NavLink>");
-                xamlMember.Getter = get_54_LibraryPage_NavLinks;
-                xamlMember.Setter = set_54_LibraryPage_NavLinks;
+                xamlMember.Getter = get_58_LibraryPage_NavLinks;
+                xamlMember.Setter = set_58_LibraryPage_NavLinks;
                 break;
             case "Cracked_Launcher.Library.NavLink.Label":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.NavLink");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Label", "String");
-                xamlMember.Getter = get_55_NavLink_Label;
-                xamlMember.Setter = set_55_NavLink_Label;
+                xamlMember.Getter = get_59_NavLink_Label;
+                xamlMember.Setter = set_59_NavLink_Label;
                 break;
             case "Cracked_Launcher.Library.NavLink.Symbol":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.NavLink");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Symbol", "Microsoft.UI.Xaml.Controls.Symbol");
-                xamlMember.Getter = get_56_NavLink_Symbol;
-                xamlMember.Setter = set_56_NavLink_Symbol;
+                xamlMember.Getter = get_60_NavLink_Symbol;
+                xamlMember.Setter = set_60_NavLink_Symbol;
                 break;
             case "Cracked_Launcher.Library.LibraryPage.Games":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.LibraryPage");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Games", "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.Library.GameItem>");
-                xamlMember.Getter = get_57_LibraryPage_Games;
-                xamlMember.Setter = set_57_LibraryPage_Games;
+                xamlMember.Getter = get_61_LibraryPage_Games;
+                xamlMember.Setter = set_61_LibraryPage_Games;
                 break;
             case "Cracked_Launcher.Library.GameItem.Title":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Title", "String");
-                xamlMember.Getter = get_58_GameItem_Title;
-                xamlMember.Setter = set_58_GameItem_Title;
+                xamlMember.Getter = get_62_GameItem_Title;
+                xamlMember.Setter = set_62_GameItem_Title;
                 break;
             case "Cracked_Launcher.Library.GameItem.Description":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Description", "String");
-                xamlMember.Getter = get_59_GameItem_Description;
-                xamlMember.Setter = set_59_GameItem_Description;
+                xamlMember.Getter = get_63_GameItem_Description;
+                xamlMember.Setter = set_63_GameItem_Description;
                 break;
             case "Cracked_Launcher.Library.GameItem.Image":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Image", "String");
-                xamlMember.Getter = get_60_GameItem_Image;
-                xamlMember.Setter = set_60_GameItem_Image;
+                xamlMember.Getter = get_64_GameItem_Image;
+                xamlMember.Setter = set_64_GameItem_Image;
                 break;
             case "Cracked_Launcher.Library.GameItem.Rating":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Rating", "Double");
-                xamlMember.Getter = get_61_GameItem_Rating;
-                xamlMember.Setter = set_61_GameItem_Rating;
+                xamlMember.Getter = get_65_GameItem_Rating;
+                xamlMember.Setter = set_65_GameItem_Rating;
                 break;
             case "Cracked_Launcher.Library.GameItem.Staus":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Library.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Staus", "String");
-                xamlMember.Getter = get_62_GameItem_Staus;
-                xamlMember.Setter = set_62_GameItem_Staus;
+                xamlMember.Getter = get_66_GameItem_Staus;
+                xamlMember.Setter = set_66_GameItem_Staus;
                 break;
             case "Cracked_Launcher.Recents1.GameItems":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.Recents1");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "GameItems", "System.Collections.ObjectModel.ObservableCollection`1<Cracked_Launcher.GameItem>");
-                xamlMember.Getter = get_63_Recents1_GameItems;
-                xamlMember.Setter = set_63_Recents1_GameItems;
+                xamlMember.Getter = get_67_Recents1_GameItems;
+                xamlMember.Setter = set_67_Recents1_GameItems;
                 break;
             case "Cracked_Launcher.GameItem.Title":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Title", "String");
-                xamlMember.Getter = get_64_GameItem_Title;
-                xamlMember.Setter = set_64_GameItem_Title;
+                xamlMember.Getter = get_68_GameItem_Title;
+                xamlMember.Setter = set_68_GameItem_Title;
                 break;
             case "Cracked_Launcher.GameItem.Rating":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Rating", "String");
-                xamlMember.Getter = get_65_GameItem_Rating;
-                xamlMember.Setter = set_65_GameItem_Rating;
+                xamlMember.Getter = get_69_GameItem_Rating;
+                xamlMember.Setter = set_69_GameItem_Rating;
                 break;
             case "Cracked_Launcher.GameItem.Status":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Status", "String");
-                xamlMember.Getter = get_66_GameItem_Status;
-                xamlMember.Setter = set_66_GameItem_Status;
+                xamlMember.Getter = get_70_GameItem_Status;
+                xamlMember.Setter = set_70_GameItem_Status;
                 break;
             case "Cracked_Launcher.GameItem.Image":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.GameItem");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Image", "String");
-                xamlMember.Getter = get_67_GameItem_Image;
-                xamlMember.Setter = set_67_GameItem_Image;
+                xamlMember.Getter = get_71_GameItem_Image;
+                xamlMember.Setter = set_71_GameItem_Image;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.Items":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Items", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_68_RadioButtons_Items;
+                xamlMember.Getter = get_72_RadioButtons_Items;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.Header":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_69_RadioButtons_Header;
-                xamlMember.Setter = set_69_RadioButtons_Header;
+                xamlMember.Getter = get_73_RadioButtons_Header;
+                xamlMember.Setter = set_73_RadioButtons_Header;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.HeaderTemplate":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_70_RadioButtons_HeaderTemplate;
-                xamlMember.Setter = set_70_RadioButtons_HeaderTemplate;
+                xamlMember.Getter = get_74_RadioButtons_HeaderTemplate;
+                xamlMember.Setter = set_74_RadioButtons_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.ItemTemplate":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "ItemTemplate", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_71_RadioButtons_ItemTemplate;
-                xamlMember.Setter = set_71_RadioButtons_ItemTemplate;
+                xamlMember.Getter = get_75_RadioButtons_ItemTemplate;
+                xamlMember.Setter = set_75_RadioButtons_ItemTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.ItemsSource":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "ItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_72_RadioButtons_ItemsSource;
-                xamlMember.Setter = set_72_RadioButtons_ItemsSource;
+                xamlMember.Getter = get_76_RadioButtons_ItemsSource;
+                xamlMember.Setter = set_76_RadioButtons_ItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.MaxColumns":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "MaxColumns", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_73_RadioButtons_MaxColumns;
-                xamlMember.Setter = set_73_RadioButtons_MaxColumns;
+                xamlMember.Getter = get_77_RadioButtons_MaxColumns;
+                xamlMember.Setter = set_77_RadioButtons_MaxColumns;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.SelectedIndex":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "SelectedIndex", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_74_RadioButtons_SelectedIndex;
-                xamlMember.Setter = set_74_RadioButtons_SelectedIndex;
+                xamlMember.Getter = get_78_RadioButtons_SelectedIndex;
+                xamlMember.Setter = set_78_RadioButtons_SelectedIndex;
                 break;
             case "Microsoft.UI.Xaml.Controls.RadioButtons.SelectedItem":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.RadioButtons");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "SelectedItem", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_75_RadioButtons_SelectedItem;
-                xamlMember.Setter = set_75_RadioButtons_SelectedItem;
+                xamlMember.Getter = get_79_RadioButtons_SelectedItem;
+                xamlMember.Setter = set_79_RadioButtons_SelectedItem;
                 break;
             case "Cracked_Launcher.DetailPage.DetailedObject":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Cracked_Launcher.DetailPage");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "DetailedObject", "Cracked_Launcher.NewsItem");
-                xamlMember.Getter = get_76_DetailPage_DetailedObject;
-                xamlMember.Setter = set_76_DetailPage_DetailedObject;
+                xamlMember.Getter = get_80_DetailPage_DetailedObject;
+                xamlMember.Setter = set_80_DetailPage_DetailedObject;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
-                xamlMember.Getter = get_77_TreeViewNode_Children;
+                xamlMember.Getter = get_81_TreeViewNode_Children;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_78_TreeViewNode_Content;
-                xamlMember.Setter = set_78_TreeViewNode_Content;
+                xamlMember.Getter = get_82_TreeViewNode_Content;
+                xamlMember.Setter = set_82_TreeViewNode_Content;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_79_TreeViewNode_Depth;
+                xamlMember.Getter = get_83_TreeViewNode_Depth;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_80_TreeViewNode_HasChildren;
+                xamlMember.Getter = get_84_TreeViewNode_HasChildren;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
-                xamlMember.Getter = get_81_TreeViewNode_HasUnrealizedChildren;
-                xamlMember.Setter = set_81_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Getter = get_85_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_85_TreeViewNode_HasUnrealizedChildren;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_82_TreeViewNode_IsExpanded;
-                xamlMember.Setter = set_82_TreeViewNode_IsExpanded;
+                xamlMember.Getter = get_86_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_86_TreeViewNode_IsExpanded;
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::Cracked_Launcher.Cracked_Launcher_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
-                xamlMember.Getter = get_83_TreeViewNode_Parent;
+                xamlMember.Getter = get_87_TreeViewNode_Parent;
                 xamlMember.SetIsReadOnly();
                 break;
             }
