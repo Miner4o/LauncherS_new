@@ -26,7 +26,7 @@ namespace Cracked_Launcher.MenuItems
     /// </summary>
     public sealed partial class DownloadPage3 : Page
     {
-        [DllImport("C:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Debug\\AppDLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
+        [DllImport("D:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Debug\\AppDLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
         private static extern IntPtr openFileDiag(IntPtr hwndOwner, string filter, string tittle);
 
         public DownloadPage3()

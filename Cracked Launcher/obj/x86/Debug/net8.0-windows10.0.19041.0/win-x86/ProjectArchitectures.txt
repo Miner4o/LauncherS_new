@@ -1,1 +1,1 @@
-C:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Cracked Launcher.csproj;x86
+D:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\Cracked Launcher.csproj;x86

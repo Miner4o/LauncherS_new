@@ -26,7 +26,7 @@ namespace Cracked_Launcher.Library
 
     public sealed partial class LibraryPage : Page
     {
-        [DllImport("C:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Debug\\AppDLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
+        [DllImport("D:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Debug\\AppDLL.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]
         private static extern IntPtr openFileDiag(IntPtr hwndOwner, string filter, string tittle);
 
         public ObservableCollection<NavLink> NavLinks { get; set; }
@@ -35,17 +35,20 @@ namespace Cracked_Launcher.Library
         public LibraryPage()
         {
             this.InitializeComponent();
-            NavLinks = new ObservableCollection<NavLink>
-            {
-                new NavLink { Label = "Library", Symbol = Symbol.Library },
-                new NavLink { Label = "Settings", Symbol = Symbol.Setting }
-            };
-            Games = new ObservableCollection<GameItem>
-            {
+
+        NavLinks = new ObservableCollection<NavLink>
+        {
+              new NavLink { Label = "Library", Symbol = Symbol.Library },
+              new NavLink { Label = "Settings", Symbol = Symbol.Setting }
+         };
+
+        Games = new ObservableCollection<GameItem>
+         {
                 new GameItem { Title = "Minecraft", Description = "A game about placing blocks and going on adventures.", Image = "ms-appx:///Assets/minecraft.jpg", Rating = 4.8 },
                 new GameItem { Title = "Roblox", Description = "A global platform that brings people together through play.", Image = "ms-appx:///Assets/roblox.jpg", Rating = 4.5 }
-            };
-            this.DataContext = this;
+         };
+
+            this.DataContext = this; // Уверете се, че DataContext е зададен
         }
 
         private void NavLinksList_ItemClick(object sender, ItemClickEventArgs e)
@@ -82,7 +85,11 @@ namespace Cracked_Launcher.Library
                 if (resultPtr != IntPtr.Zero)
                 {
                     string fileName = Marshal.PtrToStringAnsi(resultPtr);
-                    await ShowContentDialog($"Selected file: {fileName}");
+                    Games.Add(new GameItem
+                    {
+                        Title = System.IO.Path.GetFileNameWithoutExtension(fileName),
+                        Image = "\"D:\\Need for Speed Most Wanted Black Edition\\NFSMW_icon.ico\""
+                    });
                 }
                 else
                 {

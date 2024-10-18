@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "733mvCygkkw=",
+  "dgSpecHash": "xCpDavqo+J0=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Cracked Launcher\\Cracked Launcher.csproj",
+  "projectFilePath": "D:\\Projects\\arduino projects\\arduino my projects\\LauncherS\\Cracked Launcher\\Cracked Launcher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mvili\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\mvili\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\microsoft.windowsappsdk.1.5.240627000.nupkg.sha512",
