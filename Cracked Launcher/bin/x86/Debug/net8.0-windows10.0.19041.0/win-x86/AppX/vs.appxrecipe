@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-18T06:03:26.094</Modified>
+      <Modified>2024-10-18T06:27:52.189</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-18T05:57:12.157</Modified>
+      <Modified>2024-10-18T06:27:51.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.runtimeconfig.json">
       <PackagePath>Cracked Launcher.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.dll">
       <PackagePath>Cracked Launcher.dll</PackagePath>
-      <Modified>2024-10-18T06:03:25.821</Modified>
+      <Modified>2024-10-18T06:27:51.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\obj\x86\Debug\net8.0-windows10.0.19041.0\win-x86\apphost.exe">
       <PackagePath>Cracked Launcher.exe</PackagePath>
-      <Modified>2024-10-18T06:03:25.826</Modified>
+      <Modified>2024-10-18T06:27:51.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects\arduino projects\arduino my projects\LauncherS\Cracked Launcher\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\Cracked Launcher.deps.json">
       <PackagePath>Cracked Launcher.deps.json</PackagePath>
